@@ -1,7 +1,6 @@
 # 21.02.01 [효율적인 해킹]
 '''
 하나도 안 효율적인 느낌...
-왜 시간 초과나지..?
 '''
 import sys
 from collections import deque, defaultdict
