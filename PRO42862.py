@@ -10,6 +10,7 @@ def solution(n, lost, reserve):
             students[i] =1
         else:
             students[i] = 2
+            
     students[0] = 0
     #잃어버린애 중에 앞뒤로 2개인애가 있으면 가져옴
     for i in range(1, n+1):
