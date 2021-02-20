@@ -1,26 +1,17 @@
-# 21.02.15 [회전하는 큐] / Queue
+# 21.02.20 [히스토그램에서 가장 큰 직사각형]
 import sys
-from collections import deque
 
-n,m = map(int, sys.stdin.readline().split())
-pop = list(map(int, sys.stdin.readline().split()))
-
-q = deque([x for x in range(1, n+1)])
-
-result=0
-i=0
-while i < m:
-	if q[0] == pop[i]:
-		q.popleft()
-		i+=1
-	else:
-		temp = q.index(pop[i])
-		if temp < len(q)-temp:
-			for j in range(temp):
-				q.append(q.popleft())
-				result+=1
-		else:
-			for j in range(len(q)-temp):
-				q.appendleft(q.pop())
-				result+=1
-print(result)
+while True:
+    h = list(map(int, sys.stdin.readline().split())) + [0]
+    if h[0] == 0:
+        break
+    n = h[0]
+    stack = [(1,h[1])]
+    res = 0
+    for i in range(2,n+2):
+        w = i
+        while stack and stack[-1][1] > h[i]:
+            w, hi = stack.pop()
+            res = max(res, (i-w)*hi)
+        stack.append((w, h[i]))
+    print(res)
