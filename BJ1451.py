@@ -17,7 +17,6 @@ s=[]
 for i in range(n):
 	temp=list(map(int,list(sys.stdin.readline().strip())))
 	s.append(temp)
-
 res = 0
 if n>=3:
 	'''
