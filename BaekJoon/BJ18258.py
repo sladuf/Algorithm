@@ -1,4 +1,4 @@
-# 21.02.15 [큐 2] / Queue
+# 21.02.15 [큐 2]
 import sys
 from collections import deque
 
