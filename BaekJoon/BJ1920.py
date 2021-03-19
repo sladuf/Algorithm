@@ -1,5 +1,6 @@
 # 21.02.17 [수 찾기]
 import sys
+
 n = int(sys.stdin.readline())
 a = list(map(int, sys.stdin.readline().split()))
 m = int(sys.stdin.readline())
