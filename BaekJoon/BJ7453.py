@@ -10,6 +10,7 @@ while문을 사용하는 것이 dic보다 빠르다니... 새로운 사실이다
 import sys
 
 n=int(sys.stdin.readline())
+
 A,B,C,D=[],[],[],[]
 for i in range(n):
     a,b,c,d=map(int, sys.stdin.readline().split())
