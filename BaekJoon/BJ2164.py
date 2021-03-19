@@ -1,4 +1,4 @@
-# 21.02.15 [카드2] / Queue
+# 21.02.15 [카드2]
 
 import sys
 from collections import deque
