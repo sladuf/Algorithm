@@ -11,3 +11,4 @@ for i in list(map(int, sys.stdin.readline().split())):
 m = int(sys.stdin.readline())
 for i in list(map(int, sys.stdin.readline().split())):
     print(dic[i])
+    
