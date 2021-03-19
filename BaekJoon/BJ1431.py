@@ -16,5 +16,6 @@ for i in range(n):
 	serial.append([temp, length, num])
 
 serial.sort(key = lambda x: (x[1], x[2], x[0]))
+
 for i in serial:
 	print(i[0])
