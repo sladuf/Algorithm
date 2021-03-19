@@ -9,4 +9,5 @@ for i in range(1, n+1):
 	for j in combinations(a, i):
 		if sum(j) == s:
 			result+=1
+			
 print(result)
