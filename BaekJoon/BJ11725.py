@@ -3,7 +3,6 @@ import sys
 from collections import defaultdict
 from collections import deque
 
-
 n = int(sys.stdin.readline())
 tree = defaultdict(list)
 for i in range(n-1):
@@ -23,3 +22,4 @@ while queue:
 
 for i in range(2, n+1):
     print(result[i])
+    
