@@ -8,6 +8,7 @@ import sys
 import heapq
 
 n = int(sys.stdin.readline())
+
 plus = []
 mius = []
 for i in range(n):
