@@ -16,6 +16,7 @@ def func(a,b,n):
 
 
 n = int(sys.stdin.readline())
+
 p = []
 for i in range(n):
 	temp = list(map(int, sys.stdin.readline().split()))
