@@ -26,4 +26,5 @@ for case in range(t):
             #왼쪽 대각선 or 대각선 한칸 옆 중에 큰 값과 자기 자신을 더한다
             res[0][i] = max(res[1][i-1], res[1][i-2]) + table[0][i]
             res[1][i] = max(res[0][i-1], res[0][i-2]) + table[1][i]
+            
         print(max(table[0][-1],table[1][-1]))
