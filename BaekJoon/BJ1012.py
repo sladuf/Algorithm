@@ -35,3 +35,4 @@ for i in range(t):
                 bfs(y, x)
                 result +=1
     print(result)
+    

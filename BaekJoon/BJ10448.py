@@ -11,6 +11,7 @@ def test(num):
 	return 0
 
 import sys
+
 t = int(sys.stdin.readline())
 tr = [0]
 temp = 0

@@ -10,3 +10,4 @@ for i in range(1, n):
 		if a[i] > a[j] and result[i] < result[j]+1:
 			result[i] = result[j]+1
 print(max(result))
+

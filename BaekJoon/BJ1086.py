@@ -22,7 +22,6 @@ while r<n:
     else:
         r+=1
         total+=m[r]
-
 #최대길이로 저장해도 n이기 때문에 n보다 클 수 없다.
 if res>n:
     print(0)

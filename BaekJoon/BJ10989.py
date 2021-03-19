@@ -9,3 +9,4 @@ for i in range(1, 10001):
 	if num[i] != 0:
 		for j in range(num[i]):
 			print(i)
+			

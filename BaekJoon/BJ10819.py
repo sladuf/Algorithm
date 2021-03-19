@@ -12,3 +12,4 @@ for i in permutations(l, n):
 		temp += abs(i[j-1]-i[j])
 	result = max(result, temp)
 print(result)
+

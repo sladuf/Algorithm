@@ -1,6 +1,5 @@
 # 21.01.28 [피보나치 함수]
 import sys
-
 t = int(sys.stdin.readline())
 
 dp = [[0,0] for i in range(41)]

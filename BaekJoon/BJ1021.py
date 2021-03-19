@@ -14,4 +14,4 @@ while True:
             w, hi = stack.pop()
             res = max(res, (i-w)*hi)
         stack.append((w, h[i]))
-    print(res)
+    print(res) 

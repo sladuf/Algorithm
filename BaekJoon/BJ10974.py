@@ -10,3 +10,4 @@ for i in permutations(comb, n):
 	for j in i:
 		print(j, end=' ')
 	print()
+	
