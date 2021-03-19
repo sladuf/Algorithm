@@ -1,4 +1,5 @@
 # 21.02.10 [등굣길]
+
 def solution(m, n, puddles):
     mn = [[1]*m for x in range(n)]
 
