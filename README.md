@@ -1,5 +1,4 @@
-❕ PS. Problem name in file ❕
-
+Only Solving Problem
 ---
 
 ## BaekJoon
