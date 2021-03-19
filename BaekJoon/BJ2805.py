@@ -1,5 +1,6 @@
 # 21.02.17 [나무 자르기]
 import sys
+
 n,m = map(int, sys.stdin.readline().split())
 namu = list(map(int, sys.stdin.readline().split()))
 
