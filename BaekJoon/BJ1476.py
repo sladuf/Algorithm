@@ -3,7 +3,6 @@
 import sys
 
 e,s,m = map(int, sys.stdin.readline().split())
-
 a,b,c, = 1,1,1
 res = 1
 while True:
