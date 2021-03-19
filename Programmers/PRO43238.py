@@ -1,4 +1,5 @@
 # 21.02.13 [입국심사]
+
 def solution(n, times):
     answer = 0
     '''
@@ -19,4 +20,5 @@ def solution(n, times):
             answer=mid
         else:
             left=mid+1
+            
     return answer
