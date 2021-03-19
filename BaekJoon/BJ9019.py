@@ -11,6 +11,7 @@ from collections import deque
 
 
 t=int(sys.stdin.readline())
+
 for case in range(t):
     a,b = map(int, sys.stdin.readline().split())
     visited=[False for x in range(10000)]
