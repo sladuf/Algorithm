@@ -62,4 +62,5 @@ while q:
 		if not dic[l]:
 			q.append([l,cnt+1])
 			dic[l]=True
+			
 print(res)
