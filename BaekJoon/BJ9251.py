@@ -17,6 +17,7 @@ for i in range(1, len(b)+1):
         else:
             dp[i][j] = max(dp[i][j-1], dp[i-1][j])
 result = 0
+
 for i in dp:
     result = max(result, max(i))
 print(result)
