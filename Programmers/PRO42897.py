@@ -22,4 +22,5 @@ def solution(money):
     dp2[-1] = max(dp2[-2], dp2[-3]+money[-1])
         
     answer = max(max(dp1),max(dp2))
+    
     return answer
