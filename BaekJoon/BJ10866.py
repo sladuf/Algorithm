@@ -1,4 +1,4 @@
-# 21.02.15 [덱] / Queue
+# 21.02.15 [덱]
 import sys
 from collections import deque
 
