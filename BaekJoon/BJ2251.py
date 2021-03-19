@@ -62,6 +62,7 @@ while q:
 	else:
 		q.append([x,b,z-(b-y)])
 
+		
 for i in sorted(res):
 	print(i,end=' ')
 
