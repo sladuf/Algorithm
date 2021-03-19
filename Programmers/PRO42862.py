@@ -1,4 +1,5 @@
 # 21.02.08 [체육복]
+
 def solution(n, lost, reserve):
     answer = 0
     students = [1 for x in range(n+1)]
