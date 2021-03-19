@@ -1,6 +1,8 @@
 # 21.02.03 [병든 나이트]
 import sys
+
 n,m = map(int, sys.stdin.readline().split())
+
 if n == 1:
 	print(1)
 elif n == 2:
