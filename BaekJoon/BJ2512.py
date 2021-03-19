@@ -5,6 +5,7 @@ import sys
 n = int(sys.stdin.readline())
 a = list(map(int, sys.stdin.readline().split()))
 m = int(sys.stdin.readline())
+
 a.sort()
 l = m//len(a)
 r = a[-1]
