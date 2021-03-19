@@ -1,6 +1,7 @@
-# 21.02.15 [AC] / Queue
+# 21.02.15 [AC]
 import sys
 from collections import deque
+
 t = int(sys.stdin.readline())
 for i in range(t):
     p = list(sys.stdin.readline().strip())
