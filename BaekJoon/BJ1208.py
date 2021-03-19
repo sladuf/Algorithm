@@ -50,4 +50,5 @@ while l<len(lkey) and r>=0:
 
 if s==0:
     res-=1
+    
 print(res)
