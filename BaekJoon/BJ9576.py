@@ -11,6 +11,7 @@ for i in range(t):
 		st.append([a,b])
 	st.sort(key = lambda x: (x[1],x[0]))
 	res = 0
+	
 	for a,b in st:
 		for x in range(a,b+1):
 			if book[x]:
