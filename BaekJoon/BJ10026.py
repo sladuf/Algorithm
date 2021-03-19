@@ -60,7 +60,8 @@ def GB(pic):
                             queue.append([xx,yy])
                             cp[xx][yy] = 'C';
     B_dfs(cp)
-
+    
+    
 def B_dfs(pic):
     global people, RG_people
 
