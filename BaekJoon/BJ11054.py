@@ -17,7 +17,6 @@ for i in range(n-1, -1, -1):
     for j in range(n-1, i, -1):
         if a[i] > a[j] and dp[i][1] < dp[j][1]+1 :
             dp[i][1] = dp[j][1]+1
-
     result.append(sum(dp[i]))
 
 print(max(result)+1)
