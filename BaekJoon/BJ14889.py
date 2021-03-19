@@ -28,4 +28,5 @@ for i in range(len(team)//2):
 			team1 += s[a[j]][a[k]] + s[a[k]][a[j]]
 			team2 += s[b[j]][b[k]] + s[b[k]][b[j]]
 	result = min(result, abs(team1-team2))
+	
 print(result)
