@@ -1,4 +1,5 @@
 # 21.02.13 [신나는 함수 실행]
+
 import sys
 sys.setrecursionlimit(100000)
 
@@ -25,4 +26,5 @@ while True:
     if a==-1 and b==-1 and c==-1:
         break
     result = w(a,b,c)
+    
     print("w(%d, %d, %d) = %d" %(a,b,c,result))
