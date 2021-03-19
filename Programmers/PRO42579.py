@@ -1,4 +1,5 @@
 # 21.02.11 [베스트앨범]
+
 from collections import defaultdict
 
 def solution(genres, plays):
