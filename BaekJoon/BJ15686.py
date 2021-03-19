@@ -29,6 +29,7 @@ for i in range(n):
 			ch.append([i,j])
 
 result = []
+
 for i in combinations(ch, m):
 	result.append(length(i))
 
