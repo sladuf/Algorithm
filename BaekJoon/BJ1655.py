@@ -1,8 +1,10 @@
 # 21.02.17 [가운데를 말해요]
+
 import sys
 import heapq
 
 n = int(sys.stdin.readline())
+
 #정렬을 힙으로 한다는 개념 왼쪽에는 작은 수, 오른쪽엔 큰 수
 l = [] #max
 r = [] #min
