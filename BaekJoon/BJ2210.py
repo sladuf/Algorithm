@@ -26,6 +26,7 @@ for i in range(5):
     metrix.append(temp)
 
 result = set()
+
 for a in range(5):
     for b in range(5):
         for value in set(dfs(a,b,1)):
