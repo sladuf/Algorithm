@@ -2,6 +2,7 @@
 import sys
 
 n = int(sys.stdin.readline())
+
 p = [0]
 for i in range(n):
     p.append(int(sys.stdin.readline()))
