@@ -3,6 +3,7 @@ import sys
 from collections import defaultdict
 
 n = int(sys.stdin.readline())
+
 num = []
 total = 0
 for i in range(n):
