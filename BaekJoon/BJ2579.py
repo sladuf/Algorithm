@@ -1,7 +1,9 @@
 # 21.01.29 [계단 오르기]
 
 import sys
+
 n = int(sys.stdin.readline())
+
 step = []
 for i in range(n):
     step.append(int(sys.stdin.readline()))
