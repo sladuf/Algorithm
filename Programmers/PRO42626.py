@@ -1,4 +1,5 @@
 # 21.02.11 [더 맵게]
+
 import heapq
 
 def solution(scoville, K):
