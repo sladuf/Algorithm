@@ -1,6 +1,8 @@
 # 21.02.03 [로프]
 import sys
+
 n = int(sys.stdin.readline())
+
 l = []
 for i in range(n):
 	l.append(int(sys.stdin.readline()))
