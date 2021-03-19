@@ -7,6 +7,7 @@ def solution(word, pages):
     url = []
     body = []
     link = defaultdict(list)
+    
     for p in pages:
         u = p.split('<meta property="og:url" content="https://')[1].split('"/>')[0]
         url.append(u)
