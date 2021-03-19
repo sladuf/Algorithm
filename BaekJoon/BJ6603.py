@@ -6,6 +6,7 @@ while True:
 	temp = list(map(int, sys.stdin.readline().split()))
 	if temp[0] == 0:
 		break
+		
 	for lotto in combinations(temp[1:], 6):
 		for num in lotto:
 			print(num, end=' ')
