@@ -10,6 +10,7 @@ import heapq
 
 n=int(sys.stdin.readline())
 m=int(sys.stdin.readline())
+
 dic=defaultdict(list)
 for i in range(m):
 	x,y,z=map(int,sys.stdin.readline().split())
