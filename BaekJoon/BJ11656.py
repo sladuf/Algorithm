@@ -3,6 +3,7 @@ import sys
 from collections import deque
 
 s = sys.stdin.readline().strip()
+
 dic = []
 
 for i in range(len(s)):
