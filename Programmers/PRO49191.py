@@ -1,4 +1,5 @@
 # 21.02.12 [순위]
+
 from collections import defaultdict
 def solution(n, results):
     answer = 0
