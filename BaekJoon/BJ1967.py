@@ -12,6 +12,7 @@ from collections import defaultdict
 from collections import deque
 
 n=int(sys.stdin.readline())
+
 dic=defaultdict(list)
 
 for i in range(n-1):
@@ -44,4 +45,5 @@ while q:
 			q.append([x,cnt+y])
 			visited[x]=cnt+y
 visited[a]=0
+
 print(max(visited))
