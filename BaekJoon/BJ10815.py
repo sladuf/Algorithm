@@ -26,3 +26,4 @@ check = list(map(int, sys.stdin.readline().split()))
 card.sort()
 for i in check:
 	print(merge(i), end=' ')
+	
