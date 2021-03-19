@@ -7,6 +7,7 @@ import sys
 from collections import defaultdict
 
 n=int(sys.stdin.readline())
+
 words=[]
 for i in range(n):
 	words.append(list(sys.stdin.readline().strip()))
@@ -23,4 +24,5 @@ result = 0
 for i in sorted(dic.items(), key=lambda x: x[1], reverse = True):
 	result += num *i[1]
 	num-=1
+	
 print(result)
