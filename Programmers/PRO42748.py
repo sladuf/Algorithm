@@ -1,4 +1,5 @@
 # 21.02.10 [K번째수]
+
 def solution(array, commands):
     answer = []
     for a,b,c in commands:
