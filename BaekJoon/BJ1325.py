@@ -20,6 +20,7 @@ def bfs(i):
 	return cnt
 
 n,m=map(int, sys.stdin.readline().split())
+
 dic = defaultdict(list)
 for i in range(m):
 	a,b = map(int,sys.stdin.readline().split())
