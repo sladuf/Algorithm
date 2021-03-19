@@ -2,6 +2,7 @@
 import sys
 
 n=int(sys.stdin.readline())
+
 dp = []
 for i in range(n):
 	temp = list(map(int, sys.stdin.readline().split()))
