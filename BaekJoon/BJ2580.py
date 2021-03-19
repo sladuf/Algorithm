@@ -1,3 +1,5 @@
+# 21.02.23 [스도쿠]
+
 import sys
 from collections import deque
 
