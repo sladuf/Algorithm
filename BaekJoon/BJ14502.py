@@ -33,6 +33,7 @@ def bfs(wall, room):
     safe(r_copy)
 
 n,m = map(int ,sys.stdin.readline().split())
+
 room = []
 result = []
 
@@ -48,4 +49,5 @@ for x in range(n):
 
 for i in list(combinations(zero, 3)):
     bfs(i, room)
+    
 print(max(result))

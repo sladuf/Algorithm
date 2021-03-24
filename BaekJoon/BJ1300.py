@@ -23,4 +23,5 @@ while l<=r:
         result = mid
     else:
         l = mid+1
+        
 print(result)

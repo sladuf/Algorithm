@@ -50,8 +50,8 @@ def ch(x,y,land):
 				queue.append([xx,yy,0])
 	return queue
 
-
 n=int(sys.stdin.readline())
+
 t = []
 for i in range(n):
 	t.append(list(map(int, sys.stdin.readline().split())))

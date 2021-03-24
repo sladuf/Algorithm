@@ -1,3 +1,4 @@
+# 21.02.23 [좋은 수열]
 import sys
 
 def ch(cnt):

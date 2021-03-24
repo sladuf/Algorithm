@@ -1,4 +1,5 @@
 # 21.02.09 [단어 변환]
+
 from collections import deque
 
 def solution(begin, target, words):

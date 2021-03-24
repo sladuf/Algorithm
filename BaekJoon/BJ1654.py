@@ -1,5 +1,7 @@
 # 21.02.17 [랜선 자르기]
+
 import sys
+
 n,m = map(int, sys.stdin.readline().split())
 li =[int(sys.stdin.readline()) for x in range(n)]
 

@@ -14,3 +14,4 @@ for i in range(n):
 			print(0)
 	else:
 		heapq.heappush(h,(abs(x),x))
+		

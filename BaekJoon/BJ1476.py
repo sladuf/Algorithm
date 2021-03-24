@@ -1,11 +1,8 @@
 # 21.03.05 [날짜 계산]
-'''
-걍 완탐했음
-'''
+
 import sys
 
 e,s,m = map(int, sys.stdin.readline().split())
-
 a,b,c, = 1,1,1
 res = 1
 while True:

@@ -1,4 +1,5 @@
 # 21.02.23 [텀 프로젝트]
+
 import sys
 from collections import deque
 
@@ -26,6 +27,7 @@ def ch(i):
 
 
 t = int(sys.stdin.readline())
+
 for i in range(t):
 	n = int(sys.stdin.readline())
 	st = [0] + list(map(int,sys.stdin.readline().split()))

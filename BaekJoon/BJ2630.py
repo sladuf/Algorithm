@@ -24,5 +24,6 @@ for i in range(n):
 
 result = [0,0]
 func(0,0,n)
+
 print(result[0])
 print(result[1])

@@ -1,7 +1,9 @@
 # 21.02.13 [로봇 청소기]
-import sys
-n,m = map(int, sys.stdin.readline().split())
 
+import sys
+
+
+n,m = map(int, sys.stdin.readline().split())
 r,c,d = map(int, sys.stdin.readline().split())
 
 room = []

@@ -12,14 +12,13 @@ def bfs(me):
                 queue.append([t, cnt])
     return visited
 
-
 import sys
 from collections import deque
 from collections import defaultdict
 
 n,m = map(int, sys.stdin.readline().split())
-friends = defaultdict(list)
 
+friends = defaultdict(list)
 for i in range(m):
     a, b = map(int, sys.stdin.readline().split())
     friends[a].append(b)

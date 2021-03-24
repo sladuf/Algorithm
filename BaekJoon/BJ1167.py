@@ -12,6 +12,7 @@ from collections import defaultdict
 from collections import deque
 
 n=int(sys.stdin.readline())
+
 dic=defaultdict(list)
 
 for i in range(n):

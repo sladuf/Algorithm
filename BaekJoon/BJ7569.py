@@ -1,5 +1,6 @@
 # 21.02.25 [카드 구매하기]
 import sys
+
 n = int(sys.stdin.readline())
 p = [0]+list(map(int, sys.stdin.readline().split()))
  

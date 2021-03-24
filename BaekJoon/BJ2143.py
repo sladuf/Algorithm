@@ -3,8 +3,10 @@ import sys
 from collections import defaultdict
 
 n=int(sys.stdin.readline())
+
 a=int(sys.stdin.readline())
 A=list(map(int, sys.stdin.readline().split()))
+
 b=int(sys.stdin.readline())
 B=list(map(int, sys.stdin.readline().split()))
 

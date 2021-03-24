@@ -1,5 +1,6 @@
 # 21.01.31 [수리공 항승]
 import sys
+
 n, l = map(int, sys.stdin.readline().split())
 spot = list(map(int, sys.stdin.readline().split()))
 
@@ -12,4 +13,5 @@ while spot:
 	if now-temp >= l:
 		now = temp
 		result+=1
+		
 print(result)

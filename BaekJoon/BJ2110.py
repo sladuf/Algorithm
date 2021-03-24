@@ -1,6 +1,8 @@
 # 21.02.19 [공유기 설치]
 import sys
+
 n,c = map(int, sys.stdin.readline().split())
+
 x = []
 for i in range(n):
     x.append(int(sys.stdin.readline()))

@@ -19,4 +19,5 @@ else:
 			dp[i] += 2*dp[i-j]
 		#새로운 종류가 2가지 생김
 		dp[i]+=2
+		
 	print(dp[n])

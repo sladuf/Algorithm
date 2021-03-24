@@ -8,6 +8,7 @@ n,k = map(int, sys.stdin.readline().split())
 queue = deque([[n,0]])
 result = 0
 visited = [False for i in range(100001)]
+
 while queue:
 	temp, spot = queue.popleft()
 	if temp == k :

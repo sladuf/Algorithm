@@ -10,6 +10,7 @@ for i in range(3, 100):
     p[i] = p[i-2]+p[i-3]
 
 n = int(sys.stdin.readline())
+
 for i in range(n):
     temp = int(sys.stdin.readline())
     print(p[temp-1])

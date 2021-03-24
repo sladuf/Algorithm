@@ -1,5 +1,6 @@
 # 21.02.09 [네트워크]
 from collections import deque
+
 def solution(n, computers):
     def bfs(com):
         visited[com] = True

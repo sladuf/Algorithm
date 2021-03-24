@@ -1,4 +1,4 @@
-# 21.02.15 [오큰수] / Stack
+# 21.02.15 [오큰수]
 import sys
 
 n = int(sys.stdin.readline())

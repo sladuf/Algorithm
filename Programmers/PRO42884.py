@@ -1,4 +1,5 @@
 # 21.02.14 [단속카메라]
+
 def solution(routes):
     routes.sort()
     now=routes[-1][0]

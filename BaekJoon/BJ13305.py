@@ -11,4 +11,5 @@ for i in range(len(length)):
     if now > cost[i]:
         now = cost[i]
     result+=(now*length[i])
+    
 print(result)

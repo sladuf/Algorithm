@@ -9,6 +9,7 @@ for i in range(t):
 	for j in range(n):
 		a,b = map(int, sys.stdin.readline().split())
 		score.append([a,b])
+		
 	result = 1
 	score.sort()
 	b = score[0][1]

@@ -27,6 +27,7 @@ else:
 		res =1
 	else:
 		res = 0
+		
 	while l<=r<len(sosu):
 		#값이 작으면 r값 오른쪽으로 이동
 		if total<n:

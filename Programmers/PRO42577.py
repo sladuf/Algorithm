@@ -1,4 +1,5 @@
 # 21.02.11 [전화번호 목록]
+
 def solution(phone_book):
 
     phone_book.sort(key=lambda x:(x, len(x)))

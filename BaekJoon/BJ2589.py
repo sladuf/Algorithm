@@ -26,6 +26,7 @@ def bfs(x,y):
     return res
 
 n,m=map(int,sys.stdin.readline().split())
+
 land=[]
 for i in range(n):
     land.append(list(sys.stdin.readline().strip()))
@@ -36,4 +37,5 @@ for i in range(n):
         if land[i][j]=='L':
             temp=bfs(i,j)
             res=max(res,temp)
+            
 print(res)

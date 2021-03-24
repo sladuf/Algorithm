@@ -36,6 +36,7 @@ def bfs():
 	
 
 n,m = map(int, sys.stdin.readline().split())
+
 ch = []
 for i in range(n):
 	ch.append(list(map(int, sys.stdin.readline().split())))
@@ -50,4 +51,3 @@ for i in range(n):
 			time+=1
 print(time)
 print(last)
-

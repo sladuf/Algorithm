@@ -1,4 +1,5 @@
 # 21.02.14 [징검다리]
+
 def solution(distance, rocks, n):
     answer=0
     '''
@@ -25,4 +26,5 @@ def solution(distance, rocks, n):
         else:
             answer = mid
             left=mid+1
+            
     return answer

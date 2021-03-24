@@ -1,4 +1,5 @@
 # 21.03.03 [-2진수]
+
 import sys
 
 n = int(sys.stdin.readline())

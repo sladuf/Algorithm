@@ -1,6 +1,7 @@
 # 21.02.01 [퇴사]
 
 import sys
+
 n = int(sys.stdin.readline())
 s=[]
 for i in range(n):

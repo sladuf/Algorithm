@@ -34,4 +34,5 @@ while q:
 			elif v[xx][yy]>v[x][y]+miro[xx][yy]:
 				v[xx][yy]=v[x][y]+miro[xx][yy]
 				q.append([xx,yy])
+				
 print(v[n-1][m-1])

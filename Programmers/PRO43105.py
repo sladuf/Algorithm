@@ -1,6 +1,7 @@
 # 21.02.10 [정수 삼각형]
 
 import copy
+
 def solution(t):
     answer = 0
     sum_t = copy.deepcopy(t)

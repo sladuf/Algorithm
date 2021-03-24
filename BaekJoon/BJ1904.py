@@ -1,6 +1,8 @@
 # 21.02.13 [01타일]
 import sys
+
 n = int(sys.stdin.readline())
+
 a = 1
 b = 2
 c = n

@@ -1,4 +1,5 @@
 # 21.02.07 [H-Index]
+
 def solution(citations):
     answer = 0
     citations.sort(reverse=True)

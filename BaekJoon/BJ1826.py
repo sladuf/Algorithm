@@ -1,8 +1,10 @@
 # 21.02.25 [연료 채우기]
+
 import sys
 import heapq
 
 n = int(sys.stdin.readline())
+
 h = []
 for i in range(n):
     a,b = map(int,sys.stdin.readline().split())

@@ -11,7 +11,6 @@ def length(num):
 				total+=short
 	return total
 
-
 import sys
 from itertools import combinations
 
@@ -27,6 +26,7 @@ for i in range(n):
 	for j in range(n):
 		if info[i][j] == 2:
 			ch.append([i,j])
+			
 
 result = []
 for i in combinations(ch, m):

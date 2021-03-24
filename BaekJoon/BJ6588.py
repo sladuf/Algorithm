@@ -24,6 +24,7 @@ while True:
             r = i-1
             break
 
+            
     #6=3+3이라서 while에 등호가 필요함!!!
     while l<=r:
         if sosu[l] + sosu[r] == n:

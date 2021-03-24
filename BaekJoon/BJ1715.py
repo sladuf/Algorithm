@@ -1,8 +1,10 @@
 # 21.02.25 [카드 정렬하기]
+
 import sys
 import heapq
 
 n = int(sys.stdin.readline())
+
 h = []
 for i in range(n):
 	temp = int(sys.stdin.readline())

@@ -13,6 +13,7 @@
 import sys
 
 n,m = map(int, sys.stdin.readline().split())
+
 s=[]
 for i in range(n):
 	temp=list(map(int,list(sys.stdin.readline().strip())))

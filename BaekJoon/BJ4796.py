@@ -15,4 +15,5 @@ while True:
 		else:
 			result +=v
 			v-=v
+			
 	print("Case "+str(case)+": "+str(result))

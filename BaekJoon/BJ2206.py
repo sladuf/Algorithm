@@ -31,5 +31,6 @@ for i in range(n):
 
 wall = [[[0]*2 for x in range(m)] for x in range(n)]
 result = bfs()
+
 if result: print(result)
 else: print(-1)

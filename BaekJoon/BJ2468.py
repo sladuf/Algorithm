@@ -18,6 +18,7 @@ def dfs(x,y, i):
 
 
 n = int(sys.stdin.readline())
+
 max_num = 0
 metrix = []
 result = []

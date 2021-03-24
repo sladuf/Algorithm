@@ -1,4 +1,5 @@
 # 21.02.08 [큰 수 만들기]
+
 def solution(number, k):
     answer = ''
     stack = []

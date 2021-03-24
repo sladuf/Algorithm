@@ -5,6 +5,7 @@ from collections import defaultdict
 from math import inf
 
 v,e = map(int, sys.stdin.readline().split())
+
 st = int(sys.stdin.readline())
 dic = defaultdict(list)
 for i in range(e):

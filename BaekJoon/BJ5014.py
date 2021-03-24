@@ -24,6 +24,7 @@ while q:
 	if now-d>=1 and not visited[now-d]:
 		visited[now-d]=True
 		q.append([now-d,cnt+1])
+		
 if res==-1:
 	print("use the stairs")
 else:

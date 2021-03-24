@@ -1,4 +1,5 @@
 # 21.02.07 [가장 큰 수]
+
 def solution(numbers):
     answer = ''
     numbers.sort(key = lambda x: str(x)*3, reverse=True)

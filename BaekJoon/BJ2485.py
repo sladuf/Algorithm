@@ -2,6 +2,7 @@
 '''
 가로수 간격들의 최대공약수 만큼 간격을 두고 나무를 심는다.
 '''
+
 import sys
 
 def gcd(a,b):
@@ -12,6 +13,7 @@ def gcd(a,b):
     return b
 
 n = int(sys.stdin.readline())
+
 t = []
 for i in range(n):
     t.append(int(sys.stdin.readline()))

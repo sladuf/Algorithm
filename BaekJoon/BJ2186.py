@@ -48,4 +48,5 @@ dp=[[[-1]*l for x in range(m)] for y in range(n)]
 res=0
 for x,y in st:
 	res+=dfs(x,y,1)
+	
 print(res)

@@ -18,6 +18,7 @@ for i in range(2,501):
 			dp[j]=False
 
 t=int(sys.stdin.readline())
+
 for case in range(t):
 	a,b=map(int,sys.stdin.readline().split())
 	q=deque([[a,0]])

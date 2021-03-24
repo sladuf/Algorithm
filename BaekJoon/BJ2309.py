@@ -13,5 +13,6 @@ for i in combinations(height, 7):
 		result = i
 		break
 
+		
 for i in sorted(result):
 	print(i)

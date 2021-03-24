@@ -22,7 +22,6 @@ def search_island(mapp):
                             mapp[xx][yy] = 0
     return island
 
-
 while True:
     w, h = map(int, sys.stdin.readline().split())
     if w == 0 and h == 0 :

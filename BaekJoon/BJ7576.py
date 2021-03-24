@@ -34,6 +34,7 @@ for i in tomato:
         result = -1
         break
         
-if result == -1: print(-1)
+if result == -1:
+    print(-1)
 else:
     print(max(map(max, tomato))-1)

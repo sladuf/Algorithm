@@ -20,6 +20,7 @@ def func(a,b,c,d):
 	print(temp,end='')
 
 n = int(sys.stdin.readline())
+
 p = []
 for i in range(n):
 	temp = list(sys.stdin.readline().strip())

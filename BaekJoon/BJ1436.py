@@ -9,4 +9,5 @@ while n > now:
 	result+=1
 	if '666' in str(result):
 		now+=1
+		
 print(result)

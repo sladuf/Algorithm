@@ -1,4 +1,5 @@
 # 21.02.09 [여행경로]
+
 from collections import defaultdict
 
 def solution(tickets):

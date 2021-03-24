@@ -4,7 +4,6 @@
 조합없이 못살아 정말 못살아
 깊은 복사(deepcopy) : 새로운 객체를 만듬 -> 원본 유지하려면 항상 이걸 써야됨!!!
 '''
-
 import sys
 from itertools import product
 from collections import deque
@@ -129,6 +128,7 @@ def check(move):
 	result = max(result, comp)
 
 n = int(sys.stdin.readline())
+
 st = []
 for i in range(n):
 	temp = list(map(int, sys.stdin.readline().split()))

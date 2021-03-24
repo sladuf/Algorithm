@@ -1,6 +1,8 @@
 # 21.02.03 [잃어버린 괄호]
+
 import sys
 from collections import deque
+
 ex = list(sys.stdin.readline().strip())
 
 make = []

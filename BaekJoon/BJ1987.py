@@ -1,5 +1,6 @@
 # 21.01.27 [알파벳]
 import sys
+
 dx=[0,0,-1,1]
 dy=[1,-1,0,0]
 def bfs(x,y, cnt):
@@ -24,4 +25,5 @@ result = 1
 visited = [0 for x in range(26)]
 visited[ord(board[0][0])-65] = 1
 bfs(0,0,1)
+
 print(result)
