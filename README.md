@@ -37,7 +37,29 @@ site https://www.acmicpc.net/
  [1987](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1987.py)
  [2468](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2468.py)
 
----
+### ✔ Brute Force
+[2210](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2210.py)
+[1107](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1107.py)
+[1451](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1451.py)
+[15686](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ15686.py)
+[14501](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ14501.py)
+[1057](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1057.py)
+[1339](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1339.py)
+[1051](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1051.py)
+[10448](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ10448.py)
+[1182](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1182.py)
+[1018](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1018.py)
+[1436](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1436.py)
+[1969](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1969.py)
+[10819](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ10819.py)
+[14502](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ14502.py)
+[2468](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2468.py)
+[2309](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2309.py)
+[2589](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2589.py)
+[14889](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ14889.py)
+[12100](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ12100.py)
+[10974](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ10974.py)
+
 
 # 📌 Programmers
 https://programmers.co.kr/
