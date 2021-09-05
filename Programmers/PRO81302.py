@@ -41,5 +41,4 @@ def solution(places):
         if flag == False:
             answer[temp] = 0
         
-    
     return answer
