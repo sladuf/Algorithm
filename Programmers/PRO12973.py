@@ -5,7 +5,8 @@ def solution(s):
         if st and st[-1] == temp:
             st.pop()
         else:
-            st.append(temp)         
+            st.append(temp)
+            
             
     if st:
         return 0
