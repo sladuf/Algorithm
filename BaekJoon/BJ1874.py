@@ -1,36 +1,39 @@
-# 21.02.15 [스택 수열]
+# 22.01.31 [스택 수열]
 import sys
+from collections import deque
 
 n = int(sys.stdin.readline())
+arr = deque()
 
-s = []
-for j in range(n):
-	s.append(int(sys.stdin.readline()))
+for i in range(n):
+    arr.append(int(sys.stdin.readline()))
 
-result = ['+']
-stack = [1]
-i = 0
-num = 2
+res = []
+
+st = []
+num = 1
 while num <= n :
-	if not stack or stack[-1] != s[i]:
-		stack.append(num)
-		result.append('+')
-		num+=1
-		continue
+    if st and st[-1] == arr[0]: 
+        if st[-1] == arr[0]:
+            arr.popleft()
+            st.pop()
+            res.append("-")
+    else:
+        st.append(num)
+        res.append("+")
+        num+=1
 
-	stack.pop()
-	result.append('-')
-	i+=1
 
-while stack:
-	if stack[-1] == s[i]:
-		result.append('-')
-		i+=1
-		stack.pop()
-	else:
-		print('NO')
-		break
+for i in range(len(arr)):
+    if st[-1] == arr[0]:
+        arr.popleft()
+        st.pop()
+        res.append("-")
+    else:
+        break
 
-if len(stack) == 0:
-	for i in result:
-		print(i)
+if st :
+    print("NO")
+else:
+    for i in res:
+        print(i)
