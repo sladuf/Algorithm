@@ -1,17 +1,17 @@
-# 21.02.17 [최대 힙]
-import sys
-import heapq
+# 22.01.31 [최대 힙]
+
+import sys, heapq
 
 n = int(sys.stdin.readline())
-h = []
+
+heap = []
 
 for i in range(n):
-	temp = int(sys.stdin.readline())
-	if temp == 0:
-		if h:
-			print(heapq.heappop(h)*-1)
-		else:
-			print(0)
-	else:
-		heapq.heappush(h,temp*-1)
-		
+    x = int(sys.stdin.readline())
+    if x == 0:
+        if heap:
+            print(-(heapq.heappop(heap)))
+        else:
+            print(0)
+    else:
+        heapq.heappush(heap, -x)
