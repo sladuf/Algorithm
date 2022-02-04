@@ -1,3 +1,4 @@
+# 22.01.31 [큐]
 import sys
 from collections import deque
 
