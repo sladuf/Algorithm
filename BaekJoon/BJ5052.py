@@ -1,19 +1,19 @@
-# 21.01.30 [전화번호 목록]
+# 21.02.09 [전화번호 목록]
 import sys
 
 t = int(sys.stdin.readline())
 
 for i in range(t):
 	n = int(sys.stdin.readline())
-	call = []
+	arr = []
 	for j in range(n):
-		call.append(sys.stdin.readline().strip())
-	call.sort()
-	flag = False
+		temp = sys.stdin.readline().strip()
+		arr.append(temp)
+	arr.sort()
+	flag = True
 	for j in range(1, n):
-		if call[j].startswith(call[j-1]):
+		if arr[j].startswith(arr[j-1]):
 			print("NO")
-			flag = True
+			flag = False
 			break
-	if flag == False:
-		print("YES")
+	if flag : print("YES")
