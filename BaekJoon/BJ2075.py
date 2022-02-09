@@ -1,3 +1,5 @@
+# 22.02.09 [N번째 큰 수]
+
 import sys, heapq
 
 n = int(sys.stdin.readline())
