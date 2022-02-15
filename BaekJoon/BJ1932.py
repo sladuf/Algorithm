@@ -1,19 +1,17 @@
-# 21.01.29 [정수 삼각형]
+# 22.02.16 [정수 삼각형]
 import sys
 
 n=int(sys.stdin.readline())
 
-dp = []
+tree = []
 for i in range(n):
 	temp = list(map(int, sys.stdin.readline().split()))
-	dp.append(temp)
+	tree.append(temp)
+	if i == 0:
+		continue
+	tree[i][0] += tree[i-1][0]
+	tree[i][-1] += tree[i-1][-1]
+	for j in range(1,i):
+		tree[i][j] += max([tree[i-1][j-1], tree[i-1][j]])
 
-for i in range(1,n):
-	for j in range(len(dp[i])):
-		if j == 0:
-			dp[i][j] += dp[i-1][j]
-		elif j == len(dp[i])-1:
-			dp[i][j] += dp[i-1][j-1]
-		else:
-			dp[i][j] += max(dp[i-1][j-1], dp[i-1][j])
-print(max(dp[n-1])) 
+print(max(tree[-1]))
