@@ -1,4 +1,4 @@
-# 22.09.08 [성격 유형 검사지] Lv1
+# https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=python3
 
 def point(a,b,p):
     if p == 1:
