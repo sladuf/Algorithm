@@ -203,6 +203,7 @@ test link : https://programmers.co.kr/learn/courses/30/lessons/[number]
 - [경주로 건설](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO67259.py)
 - [크레인 인형뽑기 게임](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO64061.py)
 - [성격 유형 검사하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PROPRO118666.py)
+- [신고 결과 받기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO92334)
 
 # 📌 Goorm
 https://www.goorm.io/
