@@ -188,11 +188,16 @@ https://programmers.co.kr/
 file name : PRO[number].py
 
 test link : https://programmers.co.kr/learn/courses/30/lessons/[number]
-[월간 코드 챌린지] (https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%20%EC%B1%8C%EB%A6%B0%EC%A7%80)
-[위클리 챌린지] (https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EC%B1%8C%EB%A6%B0%EC%A7%80)
 
-**2022 KAKAO TECH INTERNSHIP**
-[성격 유형 검사하기] (https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PROPRO118666.py)
+**💡 월간 코드 챌린지**
+- [시즌1](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%20%EC%B1%8C%EB%A6%B0%EC%A7%80/%EC%8B%9C%EC%A6%8C1)
+- [시즌2](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%20%EC%B1%8C%EB%A6%B0%EC%A7%80/%EC%8B%9C%EC%A6%8C2)
+
+**💡 위클리 챌린지**
+- [link](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EC%B1%8C%EB%A6%B0%EC%A7%80)
+
+**💡 2022 KAKAO TECH INTERNSHIP**
+- [성격 유형 검사하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PROPRO118666.py)
 
 # 📌 Goorm
 https://www.goorm.io/
