@@ -198,6 +198,7 @@ test link : https://programmers.co.kr/learn/courses/30/lessons/[number]
 
 **💡KAKAO**
 - [숫자 문자열과 영단어](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO81301.py)
+- [거리두기 확인하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO81302.py)
 - [성격 유형 검사하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PROPRO118666.py)
 
 # 📌 Goorm
