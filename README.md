@@ -196,7 +196,8 @@ test link : https://programmers.co.kr/learn/courses/30/lessons/[number]
 **💡 위클리 챌린지**
 - [link](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EC%B1%8C%EB%A6%B0%EC%A7%80)
 
-**💡 2022 KAKAO TECH INTERNSHIP**
+**💡KAKAO**
+- [숫자 문자열과 영단어](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO81301.py)
 - [성격 유형 검사하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PROPRO118666.py)
 
 # 📌 Goorm
