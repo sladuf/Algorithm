@@ -5,31 +5,10 @@
 2. 회전한 키로 brute force -> lock을 *3 해서 index error 나지 않게 하기
 3. 일치하는지 검사하는 함수
 
-
-0,0 0,1 0,2
-1,0 1,1 1,2
-2,0 2,1 2,2
-
 회전 rule
 x = y
 y = len(n)-1-x
-
 '''
-# 0 0 0 
-# 1 0 0 
-# 0 1 1
-
-# 0 1 0
-# 1 0 0
-# 1 0 0
-
-# 1 1 0
-# 0 0 1
-# 0 0 0
-
-# 0 0 1
-# 0 0 1
-# 0 1 0
 
 def rotation(key):
     lenk = len(key)
@@ -73,7 +52,7 @@ def solution(key, lock):
 
     return False
 
-
+# TEST
 key = [[0, 0, 0], [1, 0, 0], [0, 1, 1]]
 lock = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]
 result = solution(key, lock)
