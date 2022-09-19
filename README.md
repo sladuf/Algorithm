@@ -207,6 +207,7 @@ test link : https://programmers.co.kr/learn/courses/30/lessons/[number]
 - [주차 요금 계산](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO92341.py)
 - [k진수에서 소수 개수 구하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO92335.py)
 - [자물쇠와 열쇠](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO60059.py)
+- [뉴스 클러스터링](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO17677.py)
 
 # 📌 Goorm
 https://www.goorm.io/
