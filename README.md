@@ -37,6 +37,7 @@ site https://www.acmicpc.net/
 [2210](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2210.py)
 [1987](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1987.py)
 [2468](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2468.py)
+[15591](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ15591.py)
 
 ### ✔ Brute Force
 [2210](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2210.py)
