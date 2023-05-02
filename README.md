@@ -178,7 +178,7 @@ site https://www.acmicpc.net/
 [3584](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ3584.py)
 [5430](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ5430.py)
 [6588](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ6588.py)
-
+[15235](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ15235.py))
 
 
 
