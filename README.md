@@ -94,6 +94,7 @@ site https://www.acmicpc.net/
 [2193](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2193.py)
 [1086](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1086.py)
 [10844](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ10844.py)
+[2839](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ2839.py)
 
 ### ✔ Greedy
 [1541](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ1541.py)
