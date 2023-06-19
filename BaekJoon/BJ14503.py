@@ -1,40 +1,37 @@
-# 21.02.13 [로봇 청소기]
+# 23.06.19
+# 로봇 청소기
 
 import sys
 
+n,m = map(int, sys.stdin.readline().split(" "))
+r,c,d = map(int, sys.stdin.readline().split(" "))
+arr = []
+for _ in range(n):
+    arr.append(list(map(int, sys.stdin.readline().split(" "))))
 
-n,m = map(int, sys.stdin.readline().split())
-r,c,d = map(int, sys.stdin.readline().split())
-
-room = []
-for i in range(n):
-    room.append(list(map(int, sys.stdin.readline().split())))
-
-result = 0
-xy = [[-1,0],[0,-1],[1,0],[0,1]]
-if d==1: d=3
-elif d==3: d=1
+xy = [[-1,0],[0,1],[1,0],[0,-1]]
+answer = 0
 while True:
-    if room[r][c] == 0:
-        result+=1
-        room[r][c] = -1
-    flag = False #갈곳있음?
+    if arr[r][c] == 0:
+        arr[r][c] = -1
+        answer+=1
+    flag = False
     for i in range(4):
-        d+=1
-        if d==4:
-            d=0
-        x,y = xy[d]
-        if i==1:
-            wall = [r+x,c+y]
-        if room[r+x][c+y] == 0:
+        d-=1
+        if d < 0:
+            d = 3
+        if arr[r+xy[d][0]][c+xy[d][1]] == 0:
+            r += xy[d][0]
+            c += xy[d][1]
             flag = True
-            r +=x
-            c +=y
             break
-    if flag == False:
-        if room[wall[0]][wall[1]] == 1:
+    if flag:
+        continue
+    else:
+        temp = (d+2)%4
+        if arr[r+xy[temp][0]][c+xy[temp][1]] == 1:
+            print(answer)
             break
         else:
-            r,c = wall
-
-print(result)
+            r += xy[temp][0]
+            c += xy[temp][1]
