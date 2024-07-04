@@ -1,9 +1,10 @@
 
+👩🏻‍💻 알고리즘 공부를 하며 풀었던 문제들을 정리하는 공간입니다
+
 
 # 📌 BaekJoon
 site https://www.acmicpc.net/
 ## Algorithm
-(중복될 수 있습니당!)
 
 ### ✔ BFS/DFS
 [9466](https://github.com/sladuf/Algorithm/blob/master/BaekJoon/BJ9466.py)
@@ -189,31 +190,9 @@ site https://www.acmicpc.net/
 # 📌 Programmers
 https://programmers.co.kr/
 
-
 file name : PRO[number].py
 
 test link : https://programmers.co.kr/learn/courses/30/lessons/[number]
-
-**💡 월간 코드 챌린지**
-- [시즌1](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%20%EC%B1%8C%EB%A6%B0%EC%A7%80/%EC%8B%9C%EC%A6%8C1)
-- [시즌2](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%20%EC%B1%8C%EB%A6%B0%EC%A7%80/%EC%8B%9C%EC%A6%8C2)
-
-**💡 위클리 챌린지**
-- [link](https://github.com/sladuf/Algorithm/tree/master/Programmers/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EC%B1%8C%EB%A6%B0%EC%A7%80)
-
-**💡KAKAO**
-- [숫자 문자열과 영단어](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO81301.py)
-- [거리두기 확인하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO81302.py)
-- [키패드 누르기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO67256.py)
-- [경주로 건설](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO67259.py)
-- [크레인 인형뽑기 게임](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO64061.py)
-- [성격 유형 검사하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PROPRO118666.py)
-- [신고 결과 받기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO92334)
-- [주차 요금 계산](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO92341.py)
-- [k진수에서 소수 개수 구하기](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO92335.py)
-- [자물쇠와 열쇠](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO60059.py)
-- [뉴스 클러스터링](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/PRO17677.py)
-- [프렌즈4블록](https://github.com/sladuf/Algorithm/tree/master/Programmers/KAKAO%20%EA%B8%B0%EC%B6%9C/RPO17679.py)
 
 # 📌 Goorm
 https://www.goorm.io/
