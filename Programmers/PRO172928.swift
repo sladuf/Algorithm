@@ -23,7 +23,7 @@ func solution(_ park:[String], _ routes:[String]) -> [Int] {
     }
     
     for route in routes{
-        let temp = route.components(separatedBy:" ").map { String($0) }
+        let temp = route.components(separatedBy:" ")
         let (op, n) = (temp[0], Int(temp[1])!)
         
         let direct = direction(op)
